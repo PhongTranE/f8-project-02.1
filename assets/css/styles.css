@@ -1,1 +1,112 @@
+* {
+    box-sizing: border-box;
+}
 
+:root {
+    --primary-color: #1ebfc1;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+/* Common */
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 186px;
+    padding: 0 12px;
+    line-height: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 14px;
+    background-color: var(--primary-color);
+}
+
+/* Header */
+.header {
+    padding: 52px 0 0;
+}
+
+.header .fixed {
+    z-index: 1;
+    position: sticky;
+    top: -52px;
+}
+.header .main-content {
+    position: sticky;
+    top: 0;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+}
+
+.header .action {
+    display: flex;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav a {
+    padding: 8px 20px;
+    font-size: 1.6rem;
+    color: #2f3a3b;
+}
+
+.nav a:hover {
+    text-shadow: 1px 0 0 currentColor;
+    color: #2f3a3b;
+}
+
+.nav li.active a {
+    color: #2f3a3b;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.header .action {
+    margin-left: 157px;
+}
+
+.action .sign-in-act {
+    padding: 8px 12px;
+    color: #494949;
+    font-size: 1.6rem;
+}
+
+.action .sign-up-btn {
+    margin-left: 12px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    min-width: 108px;
+    background: #fff;
+    color: var(--primary-color);
+    border-radius: 6px;
+    border: 1px solid #1ebfc1;
+}
