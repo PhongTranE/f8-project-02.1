@@ -45,10 +45,10 @@ a {
     padding: 52px 0 0;
 }
 
-.header .fixed {
+.header.fixed {
     z-index: 1;
     position: sticky;
-    top: -52px;
+    top: -44px;
 }
 .header .main-content {
     position: sticky;
@@ -78,19 +78,20 @@ a {
     color: #2f3a3b;
 }
 
-.nav a:hover {
-    text-shadow: 1px 0 0 currentColor;
-    color: #2f3a3b;
-}
 
+.nav a:hover,
 .nav li.active a {
     color: #2f3a3b;
-    font-size: 1.6rem;
-    font-weight: 600;
+   
+    text-shadow: 1px 0 0 currentColor;
+
 }
 
 .header .action {
     margin-left: 157px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px ;
 }
 
 .action .sign-in-act {
@@ -101,11 +102,9 @@ a {
 
 .action .sign-up-btn {
     margin-left: 12px;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
     min-width: 108px;
     background: #fff;
+    line-height: 48px;
     color: var(--primary-color);
     border-radius: 6px;
     border: 1px solid #1ebfc1;
