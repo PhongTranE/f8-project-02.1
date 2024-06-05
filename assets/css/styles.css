@@ -18,7 +18,7 @@ body {
 /* Common */
 .main-content {
     width: 1170px;
-    max-width: calc(100% - 48px);
+    max-width: calc(100% - 24px);
     margin-left: auto;
     margin-right: auto;
 }
@@ -46,6 +46,7 @@ a {
 }
 
 .header.fixed {
+    background: #fff;
     z-index: 1;
     position: sticky;
     top: -44px;
@@ -78,20 +79,18 @@ a {
     color: #2f3a3b;
 }
 
-
 .nav a:hover,
 .nav li.active a {
     color: #2f3a3b;
-   
-    text-shadow: 1px 0 0 currentColor;
 
+    text-shadow: 1px 0 0 currentColor;
 }
 
 .header .action {
     margin-left: 157px;
     display: flex;
     align-items: center;
-    padding-bottom: 8px ;
+    padding-bottom: 8px;
 }
 
 .action .sign-in-act {
@@ -108,4 +107,229 @@ a {
     color: var(--primary-color);
     border-radius: 6px;
     border: 1px solid #1ebfc1;
+}
+
+/* Hero */
+
+.hero {
+    margin-top: 50px;
+    display: flex;
+}
+
+.hero .content-block {
+    margin-top: 93px;
+    width: 50%;
+}
+
+.content-block .greeting {
+    color: #767e7e;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.content-block .heading {
+    margin-top: 18px;
+    min-width: 78%;
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.16;
+}
+
+.content-block .desc {
+    margin-top: 46px;
+    width: 374px;
+    color: #9da6a5;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.78;
+    text-align: left;
+}
+
+.content-block .cta-group {
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+}
+
+.cta-group .start-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    width: 186px;
+    height: 68px;
+    border-radius: 14px;
+    background: #1ebfc1;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.cta-group .icon {
+    position: relative;
+    margin-left: 50px;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    overflow: hidden;
+}
+
+.cta-group .img {
+    position: absolute;
+    top: -29px;
+    left: -48px;
+}
+
+.hero .media-block {
+    position: relative;
+    width: 50%;
+}
+
+.hero .media-block .img {
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
+    background: #e0f7f6;
+}
+
+.media-block .card-courses {
+    position: absolute;
+    top: 149px;
+    left: -40px;
+    width: 157px;
+    height: 75px;
+    border-radius: 18px;
+    background: #fefefd;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.media-block .card-content {
+    display: flex;
+    padding: 17px 25px;
+    align-items: center;
+}
+
+.card-content .book {
+    margin-right: 16px;
+}
+
+.card-content .book-group {
+    position: relative;
+}
+
+.card-content .book-group .book-row {
+    position: absolute;
+    top: 28px;
+    left: 4px;
+}
+
+.book-group .ads-course {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.media-block .bo-card {
+    position: absolute;
+    left: -65px;
+    top: 453px;
+    width: 124px;
+    height: 132px;
+    border-radius: 24px;
+    background: #fff;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.bo-card .bo-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 16px 23px;
+}
+
+.bo-card .ads-schedule {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.bo-card .r-card {
+    margin-top: 16px;
+    width: 74px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.r-card .rows {
+    width: 74px;
+    height: 6px;
+}
+
+.r-card .r2 {
+    margin-top: 12px;
+}
+
+.r-card .r3 {
+    margin-top: 10px;
+}
+
+.r-card .r4 {
+    margin-top: 16px;
+}
+
+.media-block .active-student-card {
+    position: absolute;
+    width: 207px;
+    height: 90px;
+    border-radius: 24px;
+    background: #fefefd;
+    box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+    right: 45px;
+    bottom: 41px;
+}
+
+.active-student-card .a1 {
+    margin-top: 17px;
+    margin-left: 35px;
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+.active-student-card .student-group {
+    display: flex;
+    position: relative;
+    width: 137px;
+    margin-top: 8px;
+    margin-left: 49px;
+}
+
+.active-student-card .std-group,
+.active-student-card .std-group .img {
+    width: 33px;
+    height: 33px;
+    border-radius: 33px;
+    margin-left: -7px;
+}
+
+.active-student-card .st-gr {
+    position: absolute;
+    right: 14px;
+    background-color: #1ebfc1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active-student-card .std-group .s5 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: auto;
 }
