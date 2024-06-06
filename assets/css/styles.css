@@ -15,12 +15,37 @@ body {
     font-size: 1.6rem;
 }
 
-/* Common */
+/* ================= COMMON ================= */
+
 .main-content {
     width: 1170px;
     max-width: calc(100% - 24px);
     margin-left: auto;
     margin-right: auto;
+}
+.heading {
+    color: #0d1111;
+    font-weight: 700;
+}
+
+.lv1 {
+    margin-top: 18px;
+    min-width: 78%;
+    font-size: 6.2rem;
+    line-height: 1.16;
+}
+
+.lv2 {
+    margin: 18px 0;
+    font-size: 4.2rem;
+    line-height: 1.33;
+    width: 577px;
+}
+
+.lv3 {
+    margin-top: 26px;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 a {
@@ -109,7 +134,7 @@ a {
     border: 1px solid #1ebfc1;
 }
 
-/* Hero */
+/* ================= HERO ================= */
 
 .hero {
     margin-top: 50px;
@@ -125,15 +150,6 @@ a {
     color: #767e7e;
     font-size: 1.4rem;
     font-weight: 400;
-}
-
-.content-block .heading {
-    margin-top: 18px;
-    min-width: 78%;
-    color: #0d1111;
-    font-size: 6.2rem;
-    font-weight: 700;
-    line-height: 1.16;
 }
 
 .content-block .desc {
@@ -301,7 +317,6 @@ a {
     font-weight: 500;
 }
 
-
 .active-student-card .student-group {
     display: flex;
     position: relative;
@@ -332,4 +347,63 @@ a {
     font-size: 1rem;
     font-weight: 500;
     margin: auto;
+}
+
+/* ================= FEATURES ================= */
+.features {
+    margin-top: 79px;
+    padding-top: 130px;
+}
+
+.content-inside {
+    display: flex;
+    flex-direction: column;
+    margin-right: 146px;
+    width: 1024px;
+    height: 559px;
+}
+
+.features .sub-title {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.features .content-inside .ft-desc {
+    width: 590px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.features .list-item {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.features .list-item .image {
+    width: 102px;
+    height: 106px;
+}
+
+.features .item .desc {
+    margin-top: 16px;
+    color: #9da6a5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.69;
+}
+
+.features .item .i1 {
+    width: 168px;
+}
+
+.features .item .i2 {
+    width: 223px;
+}
+
+.features .item .i3 {
+    width: 224px;
 }
