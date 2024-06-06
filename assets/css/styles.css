@@ -523,3 +523,27 @@ a {
     font-weight: 400;
 }
 
+/* ================= ADS ================= */
+.ads {
+    margin-top: 256px;
+}
+.ads .main-content {
+    display: flex;
+    width: 862px;
+    height: 131px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ads .val {
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+
+.ads .desc {
+    margin-top: 11px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
