@@ -547,3 +547,118 @@ a {
     font-size: 1.8rem;
     font-weight: 400;
 }
+
+/* ================= QUOTE ================= */
+
+.quote {
+    margin-top: 264px;
+}
+
+.quote .main-content {
+    position: relative;
+}
+
+.quote .icon {
+    margin-top: 37px;
+    width: 36px;
+    height: 29px;
+}
+
+.quote .desc {
+    margin-top: 27px;
+    width: 419px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.quote .author-name {
+    position: relative;
+    margin-left: 13px;
+    margin-top: 33px;
+    height: 24px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.quote .author-name .name {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.quote .author-name::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+    left: -13px;
+    top: 7px;
+}
+
+.quote .cta-group {
+    margin-top: 52px;
+    display: block;
+}
+
+.quote .people {
+    position: absolute;
+    object-fit: cover;
+}
+
+.quote .pp1 {
+    top: 0;
+    left: 635px;
+    width: 92px;
+    height: 92px;
+    border-radius: 92px;
+    background: #2ac9bf;
+}
+
+.quote .pp2 {
+    right: 0;
+    top: 19px;
+    width: 110px;
+    height: 110px;
+    border-radius: 110px;
+    background: #bd68b5;
+}
+
+.quote .pp3 {
+    top: 107px;
+    left: 764px;
+    width: 235px;
+    height: 235px;
+    border-radius: 235px;
+    background: #d55e5e;
+}
+
+.quote .pp4 {
+    top: 258px;
+    left: 491px;
+    width: 78px;
+    height: 78px;
+    border-radius: 78px;
+    background: #db972f;
+}
+
+.quote .pp5 {
+    right: 32px;
+    bottom: 29px;
+    width: 78px;
+    height: 78px;
+    border-radius: 78px;
+    background: #8fe9b3;
+}
+
+.quote .pp6 {
+    right: 389px;
+    bottom: 0px;
+    width: 78px;
+    height: 78px;
+    border-radius: 78px;
+    background: #e9a78f;
+}
