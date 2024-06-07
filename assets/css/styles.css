@@ -48,14 +48,14 @@ body {
     font-weight: 600;
 }
 
-.line-clamp{
+.line-clamp {
     display: -webkit-box;
-    -webkit-line-clamp: var(--line-clamp,1);
+    -webkit-line-clamp: var(--line-clamp, 1);
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
 
-.line-clamp.line-2{
+.line-clamp.line-2 {
     --line-clamp: 2;
 }
 
@@ -672,4 +672,40 @@ a {
     height: 78px;
     border-radius: 78px;
     background: #e9a78f;
+}
+
+/* ================= ACCESS ================= */
+.access {
+    margin-top: 130px;
+    padding: 76px 0 88px;
+    background: #def6f5;
+}
+
+.access .access-info {
+    display: flex;
+}
+
+.access .info {
+    width: 36%;
+}
+
+.access .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.access .btn {
+    margin: 40px 0 0 410px;
+    width: 186px;
+    height: 68px;
+    border: none;
+    border-radius: 14px;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.access .btn a{
+    color: #fff;
 }
