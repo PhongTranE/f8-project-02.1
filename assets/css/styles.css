@@ -706,6 +706,63 @@ a {
     font-weight: 600;
 }
 
-.access .btn a{
+.access .btn a {
     color: #fff;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+    margin-top: 130px;
+}
+
+.footer .rows {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .rows .column {
+    width: 19.2%;
+}
+
+.footer .rows .column:first-child {
+    width: 23.1%;
+}
+
+.footer .rows .column:last-child {
+    width: 10%;
+}
+
+.footer .title {
+    margin-bottom: 25px;
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer .list a {
+    display: flex;
+    margin-bottom: 18px;
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.footer .list li:last-child a {
+    margin-bottom: 0;
+}
+
+.footer .list .socials {
+    display: flex;
+    gap: 9px;
+}
+
+.footer .copyright {
+    padding: 80px 0 50px;
+}
+
+.footer .copyright p {
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
 }
